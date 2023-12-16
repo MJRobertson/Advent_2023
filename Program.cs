@@ -15,8 +15,8 @@ namespace adventofcode
             string path = Path.Combine(folder, @"data/day1.txt");
             string[] lines = TextParser.ReadLines(path);
             string answer = "";
-            answer = Day1.Part1(lines);
-            //answer = Day1.Part2(lines);
+            //answer = Day1.Part1(lines);
+            answer = Day1.Part2(lines);
             Console.WriteLine(answer);
             //Console.WriteLine(Day6Part2Answer);
         }
